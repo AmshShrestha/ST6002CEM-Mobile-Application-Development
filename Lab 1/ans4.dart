@@ -6,7 +6,7 @@ void main(List<String> args) {
 }
 
 void printname(String name) {
-  for (int i = 0; i < 100; i++) {
-    print(name);
+  for (int i = 1; i < 101; i++) {
+    print("$name ($i)");
   }
 }
