@@ -10,8 +10,7 @@ void main(List<String> args) {
   printlist(lstString);
 }
   void printlist(List lstString) {
-    for (int i = 0; i < lstString.length; i++) {
-      print (lstString[i]);
+      print (lstString);
     }
-  }
+  
 
