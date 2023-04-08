@@ -9,9 +9,11 @@ void main(List<String> args) {
 void checknumber(int number) {
   if (number > 0) {
     print("$number is positive");
-  } else if (number < 0) {
+  } 
+  else if (number < 0) {
     print("$number is negative");
-  } else {
+  } 
+  else {
     print("$number is zero");
   }
 }

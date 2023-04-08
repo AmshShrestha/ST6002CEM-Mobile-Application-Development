@@ -17,7 +17,8 @@ void lettercheck(String letter) {
       letter == "U" ||
       letter == "u") {
     print("$letter is vowel");
-  } else {
+  } 
+  else {
     print("$letter is consonant");
   }
 }

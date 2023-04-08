@@ -5,7 +5,7 @@ void main(List<String> args) {
 }
 
 void printnumber() {
-  for (int i = 0; i < 100; i++) {
+  for (int i = 1; i <= 100; i++) {
     if (i != 41) {
       print(i);
     }
