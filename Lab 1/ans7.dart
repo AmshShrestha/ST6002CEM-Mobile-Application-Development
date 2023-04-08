@@ -3,7 +3,7 @@
 import 'dart:io';
 
 void main(List<String> args) {
-
+  
   multiplicationtable();
 }
 
@@ -26,7 +26,7 @@ void multiplicationtable() {
     stdout.write(8 * i);
     stdout.write(", ");
     stdout.write(9 * i);
-      stdout.write(", ");
+    stdout.write(", ");
     stdout.write(10 * i);
 
     print(" ");

@@ -1,18 +1,13 @@
 // Write a dart program to create a simple calculator that performs addition, subtraction, multiplication, and division.
 
-import 'dart:io';
-
 void main(List<String> args) {
-  print("Enter first number :");
-  int firstnum = int.parse(stdin.readLineSync()!);
+  int firstnum = 5;
+  int secondnum = 10;
 
-  print("Enter second number :");
-  int secondnum = int.parse(stdin.readLineSync()!);
-
-  print(add(firstnum, secondnum));
-  print(substract(firstnum, secondnum));
-  print(multiply(firstnum, secondnum));
-  print(divide(firstnum, secondnum));
+  print("Sum of $firstnum and $secondnum: ${add(firstnum, secondnum)}");
+  print("Difference of $firstnum and $secondnum: ${substract(firstnum, secondnum)}");
+  print("Product of $firstnum and $secondnum: ${multiply(firstnum, secondnum)}");
+  print("Division of $firstnum and $secondnum: ${divide(firstnum, secondnum)}");
 }
 
 int add(
